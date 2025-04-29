@@ -1,0 +1,11 @@
+print("hey i want to ask you something")
+love =  input("do you like me? ")
+if love== "yes":
+   i = 0  
+while i < 9:  
+  print("愛して")  
+  i += 1 
+
+if love == "no":
+   print("why")
+  

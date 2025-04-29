@@ -1,0 +1,17 @@
+import random
+score = 0
+roll = [ ]
+print("welcome stranger")
+print("you will be gamble with a dice")
+while score < 50:
+    input("press enter to roll the dice")
+    die = random.randint(1, 6)
+    score += die
+    roll.append(die)
+    print(f"you got {die}")
+    print(f"your score is {score} yay!")
+ # this code works perfectly fine and good for beginner
+
+print("congratulations you got it")
+print(f"your total is {score}")
+print(f"your total is {roll}")
